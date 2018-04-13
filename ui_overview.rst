@@ -9,7 +9,7 @@ Main UI
 1. **Name**: You can set a name in OctoPrint's "Appearance" setting that will appear here to make it easier to identify if you have multiple OctoPrint devices.
 2. **Side Bar**: This is where you will find printer connection settings, uploaded files, and the state of your printer's current job (if there is one).
 3. **Nav bar plugins section**: This is where plugins can place themselves to display information.
-4. **Nav bar menu**: From left to right - Settings - System menu - Notifications - Logged in user. 
+4. **Nav bar menu**: From left to right - Settings - System menu - Notifications - Logged in user.
 5. **Tabs**: The different tabs contain the various sections you can use to monitor and control your printer.
 
 *The system menu is where you can find all the shutdown and restart options for OctoPrint and your server. Please ensure you always properly shut down your OctoPrint server, just turning it off may cause data corruption (especially if installed on a Linux operating system).*
@@ -54,7 +54,7 @@ State
 
 *Note on print times: There are a lot of factors that can throw OctoPrint's estimation off. Maximum speed and acceleration set in your firmware can mean OctoPrint's estimates may be off by a few seconds, or a few days. Slicers that include print time estimates usually try to take your settings into account, OctoPrint is unable to do this since it is not slicing the files itself, and does not have access to these settings.*
 
-* **Print, Pause, Cancel Buttons**: Control your prints with these. 
+* **Print, Pause, Cancel Buttons**: Control your prints with these.
 
 *Pausing / Cancelling a print may not immediately stop the print (for example in the event you see your filament has run out) as your printer has a buffer inside it that it may have to run through before the print actually stops.*
 
@@ -65,7 +65,7 @@ Files
 
 .. image:: _static/img/sidebar/files.PNG
 
-This is where your uploaded files will be displayed. 
+This is where your uploaded files will be displayed.
 
 **Title bar icons**
 
@@ -121,7 +121,7 @@ Control
 
 **Webcam**
 
-This is where you'll see a webcam feed if you have a web cam configured. 
+This is where you'll see a webcam feed if you have a web cam configured.
 
 *Webcam images are supplied by a 3rd party program and are simply embedded here in the control tab. Webcam compatibility and capabilities depend on the webcam server, for a list of supported cameras under OctoPi's mjpg-streamer, see here:* https://github.com/foosel/OctoPrint/wiki/Webcams-known-to-work
 
@@ -166,7 +166,7 @@ Terminal
 .. image:: _static/img/tabs/terminal.PNG
 
 * **Console output**: This is where you can see the gcodes being sent to your printer, and any responses it may give back to OctoPrint. Mostly for diagnostic purposes in the case of errors and issues.
-* **Entry box**: This is where you can enter manual gcode commands such as the command to start a PID auto tune, or to read / set EEPROM settings on your printer. 
+* **Entry box**: This is where you can enter manual gcode commands such as the command to start a PID auto tune, or to read / set EEPROM settings on your printer.
 
 *This is* **only** *the serial communication between OctoPrint and your printer. You cannot use it to perform command line operations such as those available through an SSH session.*
 

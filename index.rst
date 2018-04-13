@@ -6,11 +6,16 @@
 Welcome to OctoPrint!
 =======================================
 
+.. image:: _static/img/common/octoprint-logo.png
+
 Contents:
 
 .. toctree::
     :maxdepth: 1
 
-    welcome.rst
-    ui.rst
+    getting_started.rst
+    first_run.rst
+    ui_overview.rst
+    settings_overview.rst
+    trouble_in_paradise.rst
 
