@@ -167,6 +167,7 @@ Terminal
 
 * **Console output**: This is where you can see the gcodes being sent to your printer, and any responses it may give back to OctoPrint. Mostly for diagnostic purposes in the case of errors and issues.
 * **Entry box**: This is where you can enter manual gcode commands such as the command to start a PID auto tune, or to read / set EEPROM settings on your printer.
+* **Filters**: Allows you to filter out certain terminal messages, for example print moves, to make looking for errors or certain messages more clear. More filters can be added in OctoPrint's settings.
 
 *This is* **only** *the serial communication between OctoPrint and your printer. You cannot use it to perform command line operations such as those available through an SSH session.*
 
