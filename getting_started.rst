@@ -1,5 +1,3 @@
-.. include:: urls.rst
-
 Getting Started
 ===============
 
