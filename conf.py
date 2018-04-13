@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Quick Start'
+project = u'OctoPi Quick Start'
 copyright = u'2017, me'
 author = u'me'
 
