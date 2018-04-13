@@ -18,4 +18,3 @@ Contents:
     ui_overview.rst
     settings_overview.rst
     trouble_in_paradise.rst
-

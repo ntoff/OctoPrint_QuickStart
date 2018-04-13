@@ -56,7 +56,7 @@ State
 
 * **Print, Pause, Cancel Buttons**: Control your prints with these.
 
-*Pausing / Cancelling a print may not immediately stop the print (for example in the event you see your filament has run out) as your printer has a buffer inside it that it may have to run through before the print actually stops.*
+*Pausing / Canceling a print may not immediately stop the print (for example in the event you see your filament has run out) as your printer has a buffer inside it that it may have to run through before the print actually stops.*
 
 ---------------
 
@@ -75,7 +75,7 @@ This is where your uploaded files will be displayed.
 
 **File name colour**
 
-* **Red**: Print Failure, if a print fails or is cancelled the file's name will be displayed in red.
+* **Red**: Print Failure, if a print fails or is canceled the file's name will be displayed in red.
 * **Green**: Print Success, if a print is completed 100% successfully, the file name will turn green.
 * **Black**: This is the default file name colour for newly uploaded files that haven't been printed yet.
 
@@ -89,7 +89,7 @@ This is where your uploaded files will be displayed.
 
 **Operation Buttons**
 
-* **Create Folder Button**: For creating a folder to store files in, for organising your files by project name or type, etc.
+* **Create Folder Button**: For creating a folder to store files in, for organizing your files by project name or type, etc.
 * **Upload Button**: This uploads your file to OctoPrint's server storage. This might be a spinning platter hard drive if OctoPrint is installed on a PC, or the SD card your Raspberry Pi OS is installed on.
 * **Upload To SD Button**: This will attempt to upload your file to your printer's internal SD card if it has one.
 
@@ -127,9 +127,9 @@ This is where you'll see a webcam feed if you have a web cam configured.
 
 **Movement**
 
-* **The Arrow Buttons**: These do not indicate direction, but are representitive of positive and negative movement. The movement arrows that point "up" and "right" indicate positive movement, while the "down" and "left" pointing arrow buttons indicate negative movement. Pressing these buttons may cause your printer to move in what appears to be the opposite direction relative to the buttons. This is completely normal as long as your printer's axis moves in the positive direction when you press a positive movement direction button, and negative when you press the negative direction buttons. You can also invert these controls individually for X, Y, and Z in the printer profile in OctoPrint's settings if you wish.
+* **The Arrow Buttons**: These do not indicate direction, but are representative of positive and negative movement. The movement arrows that point "up" and "right" indicate positive movement, while the "down" and "left" pointing arrow buttons indicate negative movement. Pressing these buttons may cause your printer to move in what appears to be the opposite direction relative to the buttons. This is completely normal as long as your printer's axis moves in the positive direction when you press a positive movement direction button, and negative when you press the negative direction buttons. You can also invert these controls individually for X, Y, and Z in the printer profile in OctoPrint's settings if you wish.
 * **House Icon**: The buttons with a little house icon is the "home" button and should cause your printer's axes to move towards the limit switches.
-* **Distance Buttons**: These dictate how far the axis will move when you press the direction buttons. Measurements are in millimetres.
+* **Distance Buttons**: These dictate how far the axis will move when you press the direction buttons. Measurements are in millimeters.
 * **Feed Rate Slider + Button**: This will change the printer's movement speed multiplier. Useful for fine tuning your movement speed if you accidentally slice with a movement speed that is slightly too slow / fast.
 
 **Tools**

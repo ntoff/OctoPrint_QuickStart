@@ -10,17 +10,17 @@ The quickest way to get started with OctoPrint is to use the Raspberry Pi specif
 
 The general outline of how to get up and running is as follows -
 
-* Download sd image
-* Flash image to sd card
-* Configure wifi / ssh password / hostname
-* Connect 3d printer to raspberry pi with usb cable
-* Connect raspberry pi to network through ethernet / wifi
+* Download SD image
+* Flash image to SD card
+* Configure WiFi / ssh password / host name
+* Connect 3d printer to raspberry pi with USB cable
+* Connect raspberry pi to network through Ethernet / WiFi
 * Open web browser and enjoy OctoPrint
 
 Download
 --------
 
-Head on over to https://octoprint.org/download/ and download the lastest SD image.
+Head on over to https://octoprint.org/download/ and download the latest SD image.
 
 Flash
 -----
@@ -40,7 +40,7 @@ Try to avoid using editors such as
 * Microsoft Word
 * Wordpad
 * Apple's TextEdit (if you must use this, make sure to configure it to disable smart quotes)
-* Any other "rich text" editor that allows formatting of text with bold and itallic fonts.
+* Any other "rich text" editor that allows formatting of text with bold and italic fonts.
 
 Editors known to work
 +++++++++++++++++++++
@@ -51,7 +51,7 @@ Editors known to work
 * Vi / Vim
 * Nano
 
-*If you're on a Windows OS, make sure to enable the display of filename extensions. Open the file and folder preferences and in the "View" tab untick "Hide extensions for known file types".*
+*If you're on a Windows OS, make sure to enable the display of file name extensions. Open the file and folder preferences and in the "View" tab untick "Hide extensions for known file types".*
 
 Where to find the configuration files
 +++++++++++++++++++++++++++++++++++++
@@ -61,10 +61,10 @@ The files we will be editing and / or creating will all be in the root of the ``
 WiFi
 ++++
 
-To connect through wifi, open up the ``octopi-network.txt`` file in a suitable text editor and uncomment (remove the ``#`` marks) any relevant lines.
+To connect through WiFi, open up the ``octopi-network.txt`` file in a suitable text editor and uncomment (remove the ``#`` marks) any relevant lines.
 Do **not** uncomment all the lines hoping that one will work. If you are using WPA, then *only* uncomment the lines in the WPA section. If you're using WEP then only uncomment the lines in the WEP section.
 
-After removing the ``#`` marks, enter your SSID and wifi password in the relevant fields.
+After removing the ``#`` marks, enter your SSID and WiFi password in the relevant fields.
 
 For example if you were using WPA/WPA2, this:
 
